@@ -1,0 +1,61 @@
+/* RESET  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title {
+    width: 100%;
+    background-color: #083b4c;
+    text-align: center;
+}
+
+.title > div {
+  color: white;
+  font-size: 150px;
+}
+
+.box {
+    width: 100%;
+    background-color: #083b4c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+    line-height: 10;
+    vertical-align: middle;
+}
+
+.scatola {
+    color: black;
+    width: 15%;
+    height: 227px;
+    display: inline-block;
+    margin: 13px 37px;
+    line-height: 10;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.fizzbuzz {
+  background-color: #f0466f;
+
+}
+
+.fizz {
+  background-color: #0cd6a1;
+
+}
+
+.buzz {
+  background-color: #ffd166;
+
+}
+
+.number {
+ background-color: #1389b2;
+}
